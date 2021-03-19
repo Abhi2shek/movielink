@@ -9,10 +9,12 @@ body {
   background-image: url("https://images.pexels.com/photos/1477430/pexels-photo-1477430.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-size: cover;
   background-position: center;
-
   font-family: sans-serif;
+  text-align: center;
 }
 .ghost-img{
+  float: left;
+  margin-right: 30px;
   width: 25%;
 }
 .menu-bar {
@@ -77,4 +79,9 @@ border-radius: 3px;
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover
 {
   color: #b2ff00;
+}
+.movie {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
 }
